@@ -1,7 +1,7 @@
 
 name: "I try again pytest for testing"
 
-on:
+on: 
   push:
     branches:
       - main

@@ -1,8 +1,8 @@
 from app import add,subtract
 
 def test_add():
-  assert 30+10 == 40
+  assert add(30+10) == 40
 
 def test_subtract():
-  assert 30-10 == 20
+  assert subtract(30-10) == 20
   
